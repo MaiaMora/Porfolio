@@ -1,0 +1,255 @@
+@import "./mixins";
+@import "./variables";
+
+body {
+    font-family: 'Prompt', sans-serif;
+}
+
+.header {
+    background-color: $pink-old;
+    width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: $bunker;
+}
+
+.menu {
+    justify-content: space-around;
+
+    li {
+        list-style: none;
+    }
+
+    a {
+        color: $bunker;
+        text-decoration: none;
+        padding: 10px 20px;
+    }
+
+    a:hover {
+        background-color: $blanco;
+        color: $bunker;
+        transition: 4s;
+    }
+}
+
+.carousel-inner {
+    height: 400px;
+    margin-top: 10px;
+}
+
+.main {
+    margin: 0 auto;
+    @include size (80%, 428px);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+
+    .main__info__content {
+        h1 {
+            font-size: $texto-grande;
+            color: $breaker-bay;
+        }
+    }
+}
+
+.sobre__mi {
+    background-color: $blanco;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    height: 565px;
+    align-items: center;
+    padding: 65px;
+
+    img {
+        width: 100%;
+        grid-column: 1/5;
+    }
+
+    .sobre__mi__info {
+        grid-column: 5/10;
+        padding: 3em;
+
+        h2 {
+            font-size: $texto-medio;
+            color: $bunker;
+        }
+    }
+}
+
+.linea {
+    @include size(60px, 4px);
+    background-color: $breaker-bay;
+    margin-top: 5px;
+    margin-bottom: 1em;
+}
+
+.porfolio {
+    width: 100%;
+    background-color: $blanco;
+    color: $bunker;
+
+    .porfolio__titulo {
+        width: 100vh;
+        padding: 3em;
+
+        h2 {
+            font-size: $texto-medio;
+        }
+    }
+
+    .porfolio__contenedor {
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        gap: 175px;
+    }
+
+    .porfolio__card {
+        width: 310px;
+        background-color: $blanco;
+        height: 450px;
+        margin: 24px;
+    }
+
+    .porfolio__card__img {
+        @include size (100%, 200px);
+        background-image: url(../imagen/pag1.jpeg);
+        background-size: cover;
+    }
+
+    .porfolio__card__titulo {
+        padding: 20px;
+    }
+
+    .porfolio__link__proyecto {
+        display: flex;
+        justify-content: space-evenly;
+
+        a {
+            color: $bunker;
+            text-decoration: none;
+        }
+
+        i {
+            font-size: $texto-chico;
+        }
+    }
+}
+
+.experiencia {
+    background-color: $blanco;
+    padding: 130px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+
+    .miExperiencia {
+        h2 {
+            font-size: $texto-medio;
+            color: $bunker;
+        }
+    }
+}
+
+.contacto {
+    padding: 20px;
+    width: 100%;
+
+    h2 {
+        font-size: $texto-medio;
+    }
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin: 20px;
+
+    input {
+        padding: 10px 20px;
+        margin-bottom: 1em;
+        background: none;
+        border: none;
+        border-bottom: 1px solid $bunker;
+        color: $blanco;
+    }
+
+    textarea {
+        height: 150px;
+        background: none;
+        color: $blanco;
+        padding: 1.5em;
+        border: 1px solid $bunker;
+    }
+
+    .btnSubmit {
+        padding: 10px 20px;
+        margin: 1em;
+        border: none;
+        background-color: $bunker;
+        border-radius: 20px;
+        color: $blanco;
+        cursor: pointer;
+    }
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @include size (100%, 129px);
+    background-color: $pink-old;
+
+    .contenedor__footer__titulo {
+        font-size: $texto-medio;
+    }
+
+    .contenedor__footer__redes {
+        display: flex;
+        justify-content: space-evenly;
+        width: 300px;
+        margin-top: 1em;
+        cursor: pointer;
+    }
+
+    .contenedor__footer__icono {
+        font-size: $texto-chico;
+        color: $bunker;
+    }
+}
+
+@media (max-width: 360px) {
+    .main {
+        margin: 0 20px;
+        grid-template-columns: repeat(2, 300px);
+
+        .main__info__content {
+            h1 {
+                font-size: $texto-chico;
+            }
+        }
+    }
+
+    .carousel-inner {
+        height: 210px;
+    }
+
+    .experiencia {
+        padding: 30px;
+
+        .miExperiencia {
+            p {
+                font-size: $texto-xchico;
+            }
+        }
+    }
+
+    .formulario {
+        width: 80vw;
+        margin: 30px;
+    }
+}
