@@ -85,56 +85,9 @@ body {
     margin-bottom: 1em;
 }
 
-.porfolio {
-    width: 100%;
-    background-color: $blanco;
-    color: $bunker;
-
-    .porfolio__titulo {
-        width: 100vh;
-        padding: 3em;
-
-        h2 {
-            font-size: $texto-medio;
-        }
-    }
-
-    .porfolio__contenedor {
-        display: grid;
-        grid-template-columns: 300px 300px 300px;
-        gap: 175px;
-    }
-
-    .porfolio__card {
-        width: 310px;
-        background-color: $blanco;
-        height: 450px;
-        margin: 24px;
-    }
-
-    .porfolio__card__img {
-        @include size (100%, 200px);
-        background-image: url(../img/pag2.jpeg);
-        background-size: cover;
-    }
-
-    .porfolio__card__titulo {
-        padding: 20px;
-    }
-
-    .porfolio__link__proyecto {
-        display: flex;
-        justify-content: space-evenly;
-
-        a {
-            color: $bunker;
-            text-decoration: none;
-        }
-
-        i {
-            font-size: $texto-chico;
-        }
-    }
+.porfolio__titulo {
+    width: 100vh;
+    padding: 3em;
 }
 
 .experiencia {
