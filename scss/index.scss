@@ -90,6 +90,7 @@ body {
     padding: 3em;
 }
 
+
 .experiencia {
     background-color: $blanco;
     padding: 130px;
@@ -175,7 +176,7 @@ body {
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 800px) {
     .main {
         margin: 0 20px;
         grid-template-columns: repeat(2, 300px);
