@@ -126,15 +126,32 @@ body {
 
 .experiencia {
   background-color: #fff;
-  padding: 130px;
-  height: 100%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  padding: 120px;
+  height: 90px;
   align-items: center;
 }
 .experiencia .miExperiencia h2 {
   font-size: 2em;
   color: #07090d;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.cards .card {
+  width: 40%;
+  font-size: 24px;
+  margin: 50px 10px;
+  border: 1px solid black;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cards .card h3 {
+  font-size: 1.5em;
 }
 
 .contacto {
