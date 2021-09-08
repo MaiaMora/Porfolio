@@ -30,15 +30,10 @@ body {
   transition: 4s;
 }
 
-.carousel-inner {
-  height: 400px;
-  margin-top: 10px;
-}
-
 .main {
   margin: 0 auto;
   width: 80%;
-  height: 428px;
+  height: 488px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
@@ -99,7 +94,7 @@ body {
   justify-content: center;
 }
 .portafolio .tarjeta {
-  width: 300px;
+  width: 270px;
   height: 460px;
   margin: 1em;
   background-color: #5d9ea6;
@@ -152,8 +147,12 @@ body {
 .formulario {
   display: flex;
   flex-direction: column;
-  width: 30vw;
-  margin: 20px;
+  width: 90%;
+  margin: auto;
+  max-width: 400px;
+  padding: 2em 3em;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px -5px;
 }
 .formulario input {
   padding: 10px 20px;
@@ -211,10 +210,6 @@ body {
   }
   .main .main__info__content h1 {
     font-size: 1.5em;
-  }
-
-  .carousel-inner {
-    height: 210px;
   }
 
   .experiencia {
