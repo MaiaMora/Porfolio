@@ -66,14 +66,14 @@ body {
   padding: 65px;
 }
 .sobreMi img {
-  width: 450px;
+  width: 350px;
   grid-column: 1/5;
-  height: 450px;
+  height: 350px;
   background-size: cover;
   border-radius: 50%;
 }
 .sobreMi .miInfo {
-  grid-column: 5/10;
+  grid-column: 6/10;
   padding: 3em;
 }
 .sobreMi .miInfo h2 {
@@ -141,7 +141,7 @@ body {
 .experiencia {
   background-color: #fff;
   padding: 130px;
-  height: 490px;
+  height: 532px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
