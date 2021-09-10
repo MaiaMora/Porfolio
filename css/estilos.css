@@ -37,18 +37,18 @@ body {
   display: flex;
   align-items: center;
 }
-.main .main__info__content h1 {
+.main .mainInfo h1 {
   font-size: 3em;
   color: #5d9ea6;
 }
-.main .main__info__content p {
+.main .mainInfo p {
   font-size: 1.5em;
   color: #07090d;
 }
-.main .main__info__content p span {
+.main .mainInfo p span {
   color: #a68695;
 }
-.main .main__info__content .boton {
+.main .mainInfo .boton {
   display: inline-block;
   background: #5d9ea6;
   padding: 10px 20px;
@@ -57,7 +57,7 @@ body {
   border-radius: 40px;
 }
 
-.sobre__mi {
+.sobreMi {
   background-color: #fff;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
@@ -65,18 +65,18 @@ body {
   align-items: center;
   padding: 65px;
 }
-.sobre__mi img {
+.sobreMi img {
   width: 450px;
   grid-column: 1/5;
   height: 450px;
   background-size: cover;
   border-radius: 50%;
 }
-.sobre__mi .sobre__mi__info {
+.sobreMi .miInfo {
   grid-column: 5/10;
   padding: 3em;
 }
-.sobre__mi .sobre__mi__info h2 {
+.sobreMi .miInfo h2 {
   font-size: 2em;
   color: #07090d;
 }
@@ -94,16 +94,16 @@ body {
   background-color: #fff;
   color: #07090d;
 }
-.portafolio .portafolio__cabecera {
+.portafolio .portafolioCabecera {
   width: 100vw;
   padding: 3em;
 }
-.portafolio .portafolio__cabecera h2 {
+.portafolio .portafolioCabecera h2 {
   font-size: 2em;
 }
 .portafolio .contenedor {
   width: 80vw;
-  margin: 0 auto;
+  margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -114,16 +114,16 @@ body {
   margin: 1em;
   background-color: #5d9ea6;
 }
-.portafolio .tarjeta .tarjeta__img {
+.portafolio .tarjeta .tarjetaImg {
   width: 100%;
   height: 260px;
   background-size: cover;
 }
-.portafolio .tarjeta .tarjeta__img .img {
+.portafolio .tarjeta .tarjetaImg .img {
   width: 100%;
   height: 260px;
 }
-.portafolio .tarjeta .tarjeta__titulo {
+.portafolio .tarjeta .tarjetaTitulo {
   padding: 20px;
 }
 .portafolio .tarjeta .links {
@@ -162,7 +162,7 @@ body {
 .formulario {
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 100%;
   margin: auto;
   max-width: 400px;
   padding: 2em 3em;
@@ -175,12 +175,10 @@ body {
   background: none;
   border: none;
   border-bottom: 1px solid #07090d;
-  color: #fff;
 }
 .formulario textarea {
   height: 150px;
   background: none;
-  color: #fff;
   padding: 1.5em;
   border: 1px solid #07090d;
 }
@@ -203,17 +201,17 @@ body {
   height: 129px;
   background-color: #a68695;
 }
-.footer .contenedor__footer__titulo {
+.footer .footerTitulo {
   font-size: 2em;
 }
-.footer .contenedor__footer__redes {
+.footer .footerRedes {
   display: flex;
   justify-content: space-evenly;
   width: 300px;
   margin-top: 1em;
   cursor: pointer;
 }
-.footer .contenedor__footer__icono {
+.footer .footerIcono {
   font-size: 1.5em;
   color: #07090d;
 }
@@ -223,7 +221,7 @@ body {
     margin: 0 20px;
     grid-template-columns: repeat(2, 300px);
   }
-  .main .main__info__content h1 {
+  .main .mainInfo h1 {
     font-size: 1.5em;
   }
 
@@ -239,7 +237,7 @@ body {
     margin: 30px;
   }
 
-  .sobre__mi {
+  .sobreMi {
     display: flex;
     flex-direction: column;
     height: 818px;
