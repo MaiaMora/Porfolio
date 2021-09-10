@@ -34,13 +34,27 @@ body {
   margin: 0 auto;
   width: 80%;
   height: 488px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
   align-items: center;
 }
 .main .main__info__content h1 {
   font-size: 3em;
   color: #5d9ea6;
+}
+.main .main__info__content p {
+  font-size: 1.5em;
+  color: #07090d;
+}
+.main .main__info__content p span {
+  color: #a68695;
+}
+.main .main__info__content .boton {
+  display: inline-block;
+  background: #5d9ea6;
+  padding: 10px 20px;
+  color: #07090d;
+  text-decoration: none;
+  border-radius: 40px;
 }
 
 .sobre__mi {

@@ -38,14 +38,31 @@ body {
 .main {
     margin: 0 auto;
     @include size (80%, 488px);
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
     align-items: center;
 
     .main__info__content {
         h1 {
             font-size: $texto-grande;
             color: $breaker-bay;
+        }
+
+        p{
+            font-size: $texto-chico;
+            color: $bunker;
+
+            span{
+                color: $pink-old;
+            }
+        }
+
+        .boton{
+            display: inline-block;
+            background: $breaker-bay;
+            padding: 10px 20px;
+            color: $bunker;
+            text-decoration: none;
+            border-radius: 40px;
         }
     }
 }
