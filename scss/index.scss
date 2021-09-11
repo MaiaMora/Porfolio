@@ -1,4 +1,3 @@
-@import "./mixins";
 @import "./variables";
 
 body {
@@ -37,7 +36,8 @@ body {
 
 .main {
     margin: 0 auto;
-    @include size (80%, 488px);
+    width: 80%;
+    height: 565px;
     display: flex;
     align-items: center;
 
@@ -94,7 +94,8 @@ body {
 }
 
 .linea {
-    @include size(60px, 4px);
+    width: 60px;
+    height: 4px;
     background-color: $breaker-bay;
     margin-top: 5px;
     margin-bottom: 1em;
@@ -160,7 +161,7 @@ body {
 
 .experiencia {
     padding: 130px;
-    height: 532px;
+    height: 565px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -228,7 +229,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    @include size (100%, 129px);
+    width: 100%;
+    height: 129px;
     background-color: $pink-old;
 
     .footerTitulo {
