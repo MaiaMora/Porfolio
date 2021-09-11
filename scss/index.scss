@@ -102,12 +102,12 @@ body {
 }
 
 .portafolio {
-    width: 100vw;
+    width: 100%;
     background-color: $blanco;
     color: $bunker;
 
     .portafolioCabecera {
-        width: 100vw;
+        width: 100%;
         padding: 3em;
 
         h2 {
@@ -116,7 +116,7 @@ body {
     }
 
     .contenedor {
-        width: 80vw;
+        width: 100%;
         margin: auto;
         display: flex;
         align-items: center;

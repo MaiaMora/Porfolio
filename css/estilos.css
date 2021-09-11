@@ -90,19 +90,19 @@ body {
 }
 
 .portafolio {
-  width: 100vw;
+  width: 100%;
   background-color: #fff;
   color: #07090d;
 }
 .portafolio .portafolioCabecera {
-  width: 100vw;
+  width: 100%;
   padding: 3em;
 }
 .portafolio .portafolioCabecera h2 {
   font-size: 2em;
 }
 .portafolio .contenedor {
-  width: 80vw;
+  width: 100%;
   margin: auto;
   display: flex;
   align-items: center;
