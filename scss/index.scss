@@ -28,9 +28,9 @@ body {
     }
 
     a:hover {
-        background-color: $blanco;
+        background-color: #fff;
         color: $bunker;
-        transition: 4s;
+        transition: 6s;
     }
 }
 
@@ -68,7 +68,6 @@ body {
 }
 
 .sobreMi {
-    background-color: $blanco;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     height: 565px;
@@ -103,7 +102,6 @@ body {
 
 .portafolio {
     width: 100%;
-    background-color: $blanco;
     color: $bunker;
 
     .portafolioCabecera {
@@ -161,7 +159,6 @@ body {
 }
 
 .experiencia {
-    background-color: $blanco;
     padding: 130px;
     height: 532px;
     display: grid;
@@ -220,7 +217,7 @@ body {
             border: none;
             background-color: $bunker;
             border-radius: 20px;
-            color: $blanco;
+            color: #fff;
             cursor: pointer;
         }
     }

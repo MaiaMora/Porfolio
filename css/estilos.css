@@ -27,7 +27,7 @@ body {
 .menu a:hover {
   background-color: #fff;
   color: #07090d;
-  transition: 4s;
+  transition: 6s;
 }
 
 .main {
@@ -58,7 +58,6 @@ body {
 }
 
 .sobreMi {
-  background-color: #fff;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   height: 565px;
@@ -91,7 +90,6 @@ body {
 
 .portafolio {
   width: 100%;
-  background-color: #fff;
   color: #07090d;
 }
 .portafolio .portafolioCabecera {
@@ -139,7 +137,6 @@ body {
 }
 
 .experiencia {
-  background-color: #fff;
   padding: 130px;
   height: 532px;
   display: grid;
